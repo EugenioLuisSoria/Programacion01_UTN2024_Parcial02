@@ -1,0 +1,32 @@
+{
+    "jugadores": [
+        {
+            "nombre": "PEPA",
+            "puntuacion": 2
+        },
+        {
+            "nombre": "PEPAZA",
+            "puntuacion": 2
+        },
+        {
+            "nombre": "PEPE",
+            "puntuacion": 1
+        },
+        {
+            "nombre": "PEPEZE",
+            "puntuacion": 1
+        },
+        {
+            "nombre": "PEPO",
+            "puntuacion": 2
+        },
+        {
+            "nombre": "PEPOZO",
+            "puntuacion": 3
+        },
+        {
+            "nombre": "PIPO",
+            "puntuacion": 14
+        }
+    ]
+}
