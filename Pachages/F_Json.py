@@ -2,7 +2,7 @@ import json
 
 # ABRE ARCHIVO
 def leer_JSON():
-    with open("../JSON/data.json", "r") as file: 
+    with open("Programacion01_UTN2024_Parcial02/JSON/data.json", "r") as file: 
         data = json.load(file)
         lista_palabras = data["ahorcado"]
         return lista_palabras
