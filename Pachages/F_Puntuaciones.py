@@ -2,14 +2,14 @@ import os, json
 
 # ABRE ARCHIVO // lo abre como una lista de diccionarios... NO como un dict con lista con dicts
 def leer_json_score():
-    with open("./JSON/scores.json", "r") as file: 
+    with open("Programacion01_UTN2024_Parcial02/JSON/scores.json", "r") as file: 
         data_scores = json.load(file)
         scores = data_scores["jugadores"]
         return scores
 
 # SOBREESCRIBE ARCHIVO
 def escribir_json_score(nueva_lista):
-    with open("./JSON/scores.json", "r+") as file: 
+    with open("Programacion01_UTN2024_Parcial02/JSON/scores.json", "r+") as file: 
         data_scores = json.load(file)
         # Actualizar los datos
         data_scores["jugadores"] = nueva_lista
